@@ -1,0 +1,19 @@
+.carousel-inner{
+	max-height: 400px;
+	margin-top: 50px;
+	width: 100%
+}
+
+.slide{
+	padding-left: 0;
+	padding-bottom: 0;
+}
+
+#left-control, #right-control{
+	max-width: 0.5;
+	background: none;
+}
+.item img{
+	width: 100%;
+	height: auto;
+}

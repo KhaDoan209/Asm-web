@@ -1,0 +1,140 @@
+
+.category{
+    margin-top: 10px;
+    background-color: #f1cfb3;
+    border-radius: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: fixed;
+}
+
+.category__heading{
+    font-size: 1.4rem;
+    color: #4e3f38;
+    padding: 8px 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+
+}
+
+.category__heading-icon{
+    font-size: 1.3rem;
+    margin-right: 4px;
+    position: relative;
+    top: -1px;
+}
+.category_list{
+    padding-left: 10%;
+    list-style: none;
+}
+
+
+
+.category-item-active .category-item__link{
+    color:#ff6c6b ;
+
+}
+
+.category-item__link {
+    position: relative;
+    color: #4e3f38;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 2px 4px;
+    display: block;
+    font-weight: 600;
+    right: 0;
+    transition: right liner 0.1s;
+
+
+
+}
+
+
+
+.category-item__link:hover{
+    right: -4px;
+    color: #ff6c6b;
+}
+
+
+.Product__item:hover{
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, .05);
+  transform:  translateY(-2px);
+}
+
+.Product__item-img{ 
+
+    object-fit: fill;
+    margin: 0;
+}
+
+.Product_button{
+  text-align: right;
+  margin-right: 5%;
+  margin: 2%;
+
+  background-color: #f1cfb3;
+}
+
+.Product__item-name{
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+  padding: 0 5px;
+  height: 3.2rem;
+  text-align: left;
+  overflow: hidden;
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.Product__item-price{
+  display: flex;
+  margin-left: 2%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #f55c51;
+  flex-wrap: wrap;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  justify-content: flex-start;
+
+}
+
+
+
+
+.Product__item-btn-add{
+  background-color: #4e3f38;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 4px 2px;
+  margin-left: 45%;
+  margin-top: 2%;
+
+}
+
+.grid__column-10-imported{
+  margin-top: 10%;
+}
+
+.carousel-inner{
+	max-height: 470px;
+	margin-top: 5%;
+  object-fit: cover;
+}
+.slide{
+	padding-left: 0;
+	padding-bottom: 0;
+}
+
+#left-control, #right-control{
+	max-width: 75px;
+	background: none;
+}

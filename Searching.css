@@ -1,0 +1,108 @@
+.header__searchBar{
+	display: flex;
+	height: var(--header-searching-height);
+	align-items: center;
+	width: 100%;
+}
+
+.header__logo-storeName{
+
+	width: 120px;
+}
+
+.header__search{
+	width: 100%;
+	background-color: var(--white-color);
+	height: 40px;
+	margin-left: 3%;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+}
+
+.header__cart-icon{
+	font-size: 1.5rem;
+	color: #4e3f38;
+	
+}
+#cart__icon{
+	text-decoration: none;
+}
+.header__cart-icon:hover{
+	color: #FF6B6B;
+}
+.header__cart{
+	width: 10%;
+	display: flex;
+	text-align: center;
+	margin-left: 5%;
+	position: relative;
+}
+
+.header__search-input{
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
+	font-size: 1.2rem;
+	color: #4e3f38;
+	padding: 0 14px;
+	border-radius: 3px;
+	flex: 1;
+}
+
+.header__search-option{
+	border-left: 1px solid var(--border-color);
+	padding-left: 16px;
+	position: relative;
+}
+
+.header__search-label{
+	 color: #4e3f38;
+	 font-size: 1rem;
+	 z-index: 1;
+}
+
+.header__search-optionIcon{
+	color: #4e3f38;
+	font-size: 1.2rem;
+	margin: 0 8px;
+	position: relative;
+	bottom: 4px;
+
+}
+
+
+.header__search-btn{
+	background-color: #4e3f38;
+	border: none;
+	height: 80%;
+	width: 6%;
+	border-radius: 3px;
+	margin: 1%
+;	outline: none;
+}
+
+.header__search-btn:hover{
+	cursor: pointer;
+	background-color: #FF6B6B;
+}
+
+.header__search-btnIcon{
+	font-size: 0.9rem;
+	color: #fff;
+}
+
+.header__search-productOrigin{
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 100%;
+	box-shadow: 0 0.5px 1px;
+	padding-left: 0;
+	border-radius: 3px;
+	display: none;
+}
+
+
+
